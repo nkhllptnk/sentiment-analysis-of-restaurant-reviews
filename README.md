@@ -1,13 +1,13 @@
-# 🍽️ Majhitar Restaurant Sentiment Analysis & Recommendation System
+# Sentiment Analysis & Recommendation System
 
-## 📌 Overview
+## Overview
 This project performs Sentiment Analysis on Google reviews of restaurants in Majhitar, Sikkim using Natural Language Processing (NLP).
 
 It also includes a **dish-based recommendation system** where users can search for a dish (e.g., momo, coffee) and get the best restaurants based on review sentiment.
 
 ---
 
-## 🎯 Key Features
+## Key Features
 - Sentiment Analysis using VADER (rule-based NLP)
 - Restaurant ranking based on average sentiment score
 - Dish-based recommendation system
@@ -16,8 +16,8 @@ It also includes a **dish-based recommendation system** where users can search f
 
 ---
 
-## 📊 Dataset
-- 205 reviews from 21 restaurants
+## Dataset
+- 205 reviews from 21 restaurants across Majhitar, Sikkim - 737136
 - Collected manually from Google Maps
 - Columns:
   - `restaurant_name`
@@ -25,9 +25,9 @@ It also includes a **dish-based recommendation system** where users can search f
 
 ---
 
-## 🧠 NLP Pipeline
+## NLP Pipeline
 
-1. Data Collection (Google Reviews CSV)
+1. Data Collection (Google Reviews)
 2. Preprocessing (cleaning, handling nulls)
 3. VADER Sentiment Scoring
 4. Sentiment Classification (Positive / Negative / Neutral)
@@ -38,7 +38,7 @@ It also includes a **dish-based recommendation system** where users can search f
 
 ---
 
-## 🍜 Recommendation System
+## Recommendation System
 
 User Input:
 I want: momo
@@ -50,7 +50,7 @@ System:
 
 ---
 
-## 📈 Results
+## Results
 - Accuracy: 95%
 - Precision: 100%
 - Recall: 91.67%
@@ -58,7 +58,7 @@ System:
 
 ---
 
-## 📸 Outputs
+## Outputs
 - Sentiment Score per Restaurant
 - Sentiment Breakdown Chart
 - Overall Sentiment Distribution
@@ -66,7 +66,7 @@ System:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
 git clone https://github.com/nkhlptnk/sentiment-analysis-of-restaurant-reviews.git⁠
@@ -78,13 +78,13 @@ pip install -r requirements.txt
 jupyter notebook
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 sentiment_project/ │ ├── data/ ├── notebooks/ ├── outputs/ ├── ppt/ ├── README.md ├── requirements.txt
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 - Use BERT / Transformer models
 - Add multilingual support (Hindi/Nepali)
 - Build a web app (Streamlit/Flask)
@@ -92,7 +92,7 @@ sentiment_project/ │ ├── data/ ├── notebooks/ ├── outputs/ �
 
 ---
 
-## 👤 Author
+## Author
 **Nikhil Patnaik**
 
 
